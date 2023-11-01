@@ -1,9 +1,23 @@
 
-# Proje Başlığı
+# Project Title
 
+To_do Pern Project
+
+## The Purpose of the project
+![Uygulama Ekran Görüntüsü](https://github.com/kezvur/ansible_todo_pern_proje/blob/main/ansible.png)
 This project is a todo-app-pern project created using ansible, terraform and docker.
 
-## Ortam Değişkenleri
+## Used technologies
+
+**Client:** React, 
+
+**Server:** Node, Express
+
+**Database:** Postgresql
+ 
+**infrastructure:** Ansible-Docker-Terraform 
+  
+## Environment Variables
 
 To run this project you will need to add the following environment variables to your .env file
 
@@ -14,38 +28,31 @@ To run this project you will need to add the following environment variables to 
 - To handshake react server and nodejs server, before creating react image, you have to fill the necessary places ".env" file under client folder. This file also is very important to connect nodejs backend server and react frontend server. 
 
   
-## Bilgisayarınızda Çalıştırın
+## Run on Your Computer
 
-Projeyi klonlayın
+Clone the project:
 
 ```bash
   git clone https://github.com/kezvur/ansible_todo_pern_proje.git
 ```
+Move your key pair to the file you cloned
 
-Klonlanan dosyanın içindeki main.tf çalıştırın
+Run the main.tf file inside the cloned directory:
 
 ```bash
   terraform init
   terraform apply
 ```
-Remote uzantısı ile ansible Control Node bağlanın
+Connect to the Ansible Control Node using the remote extension.
 
-Diğer adımlar için Solution of Ansible Project.md adlı dosyadaki maddeleri takip edin.
-```
+Follow the steps outlined in the file named "Solution of Ansible Project.md" for further instructions.
+
 
 ![Uygulama Ekran Görüntüsü](https://github.com/kezvur/ansible_todo_pern_proje/blob/main/todo_web.png)
 
-## Kullanılan Teknolojiler
 
-**Client:** React, 
 
-**Server:** Node, Express
-
-**Database:** Postgresql
- 
-**infrastructure:** Ansible-Docker-Terraform 
-  
-## Geri Bildirim
+## Feedback
 
 vural93keziban@gmail.com
 
