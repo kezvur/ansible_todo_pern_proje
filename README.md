@@ -33,14 +33,8 @@ Remote uzantısı ile ansible Control Node bağlanın
 Diğer adımlar için Solution of Ansible Project.md adlı dosyadaki maddeleri takip edin.
 ```
 
-  ## Renk Referansı
+![Uygulama Ekran Görüntüsü](https://github.com/kezvur/ansible_todo_pern_proje/blob/main/todo_web.png)
 
-| Renk             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| örnek renk | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| örnek renk | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| örnek renk | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| örnek renk | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 | 
 ## Kullanılan Teknolojiler
 
 **Client:** React, 
