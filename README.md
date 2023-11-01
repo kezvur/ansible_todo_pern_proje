@@ -7,6 +7,12 @@ To_do Pern Project
 ![Uygulama Ekran Görüntüsü](https://github.com/kezvur/ansible_todo_pern_proje/blob/main/ansible.png)
 This project is a todo-app-pern project created using ansible, terraform and docker.
 
+1. **First Solution:** In this solution, separate YAML files are created for PostgreSQL, Node.js, and React components. These YAML files are executed individually. This approach requires configuring and running each component separately.
+
+2. **Second Solution:** In this solution, a YAML file named "docker_project.yaml" is used. This file serves as a combination of the individual YAML files created in the first solution. This allows all components to be consolidated within a single YAML file, making it easier for deployment.
+
+For more detailed information and explanations, please refer to the "Solution of Ansible Project.md" file, which provides a more comprehensive overview of the project's solutions and implementation steps.
+
 ## Used technologies
 
 **Client:** React, 
